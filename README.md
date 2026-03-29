@@ -1,15 +1,15 @@
 # Completed Objectives
 1. Setup a virtual Windows 2025 Server and setup Active Directory Domain Services with a domain titled org.local
-2. Provisioned a virtual Enterprise Windows 2025 clinet and created two domain users: admin and USER-01
+2. Provisioned a virtual Enterprise Windows 2025 client and created two domain users: admin and USER-01
 3. Joined client machine (USER-01) to the domain and authticated using domain credentials
-4. Created and applied Group Policy Objects (GPOs) on what apps 
+4. Created and applied Group Policy Objects (GPOs) to automate app software installation via file share
 
 # ActiveDirectory_Lab
 This lab will simulate a real world enterprise environment using Active Directory domain services within a virtualised environment using Oracle's VirtualBox.
 
 The lab consists of a Windows Server domain controller and a Windows client machine, configured to replicate common IT infrastructure scenarios such as user management, authentication, Group Policy enforcement, and network file sharing.
 
-The hypervisor that is being used is virtual box on a Windows 11 system. A virtual Windows Server 2025 and Windows 11 system will be hosted to simulate the enterprise environment.
+The hypervisor that is being used is virtual box hosted on a Windows 11 system running an i5 12600KF and 32GB of DDR4 RAM. The operating systems being hosted are a virtual Windows Server 2025 and an Enterprise Windows 11 system. They have each been allocated three cores and 8GB of RAM.
 
 <img width="1900" height="1075" alt="OracleVM" src="https://github.com/user-attachments/assets/30ca2c3f-be63-4a78-8947-05eea6ce2d33" />
 

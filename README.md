@@ -1,19 +1,23 @@
 # Completed Objectives
-1. Setup a virtual Windows 2025 Server, promoted it to a Domain Controler, and setup Active Directory Domain Services with a domain titled org.local
+1. Set up a virtual Windows 2025 Server, promoted it to a Domain Controller, and set up Active Directory Domain Services with a domain titled org.local
 2. Provisioned a virtual Enterprise Windows 2025 client and created two domain users: admin and USER-01
-3. Joined client machine (USER-01) to the domain and authticated using domain credentials
+3. Joined the client machine (USER-01) to the domain and authenticated using the domain credentials
 4. Created and applied Group Policy Objects (GPOs) to automate app software installation via file share
 
-# ActiveDirectory_Lab
-This lab will simulate a real world enterprise environment using Active Directory domain services within a virtualised environment using Oracle's VirtualBox.
+## Overview
+This lab will simulate a real-world enterprise environment using Active Directory domain services within a virtualized environment using Oracle's VirtualBox.
 
-The lab consists of a Windows Server domain controller and a Windows client machine, configured to replicate common IT infrastructure scenarios such as user management, authentication, Group Policy enforcement, and network file sharing.
+The lab consists of a Windows Server domain controller and a Windows client machine, configured to replicate common IT infrastructure scenarios, including user management, authentication, Group Policy enforcement, and network file sharing.
 
-The hypervisor that is being used is virtual box hosted on a Windows 11 system running an i5 12600KF and 32GB of DDR4 RAM. The operating systems being hosted are a virtual Windows Server 2025 and an Enterprise Windows 11 system. They have each been allocated three cores and 8GB of RAM.
+## Lab Environment
 
-<img width="1900" height="1075" alt="OracleVM" src="https://github.com/user-attachments/assets/30ca2c3f-be63-4a78-8947-05eea6ce2d33" />
+The hypervisor is running on a Windows 11 system with an i5 12600KF and 32GB of DDR4 RAM. The operating systems being hosted are a virtual Windows Server 2025 and an Enterprise Windows 11 system. Each has been allocated 3 cores and 8GB of RAM.
 
-# Windows 2025 Server
+<img width="1919" height="1079" alt="Screenshot 2026-03-29 104026" src="https://github.com/user-attachments/assets/526a54a3-beed-4f27-867a-c333c4922675" />
+
+## Screenshots / System Configuration
+
+### Windows 2025 Server
 Roles
 - Active Directory Domain Services (AD DS)
 <img width="1431" height="1005" alt="domainCreation" src="https://github.com/user-attachments/assets/1cfff535-96b0-4e22-87ed-a9008f0ef71e" />
@@ -22,19 +26,19 @@ Roles
 <img width="1743" height="1079" alt="Screenshot 2026-03-28 231334" src="https://github.com/user-attachments/assets/a73efa5c-a143-43df-8714-de1ca1b194b5" />
 - Vulnerability scanning host
 
-# Enterprise Windows 11 Client Machine
-- Joined to domain
+### Enterprise Windows 11 Client Machine
+- Joined the domain
 <img width="1919" height="1079" alt="BothVMs" src="https://github.com/user-attachments/assets/a7466145-4843-4f65-8098-31466f2f431b" />
 <img width="1919" height="1079" alt="DomainJoin" src="https://github.com/user-attachments/assets/b154f6d6-65aa-498d-b6de-dd4f25d868c6" />
 
-# Vulnerability Scanner
-- Nessus will be used on Windows 2025 Server to scan Windows 11 client
+### Vulnerability Scanner
+- Nessus will be used on Windows 2025 Server to scan Windows 11, client
 
-# Network Setup
+### Network Setup
 - Adapter 1: NAT
 - Adapter 2: Internal Network
 
-# Group Policy
+### Group Policy
 - Designed and implemented Group Policy Objects (GPOs) to automate software deployment
 <img width="1919" height="1079" alt="MSI" src="https://github.com/user-attachments/assets/57fa578b-33e1-41a5-ba7c-56aca9b045ad" />
 <img width="1919" height="1079" alt="AppInstall" src="https://github.com/user-attachments/assets/eabd1353-1a87-45c3-a4a9-05ed61082c04" />

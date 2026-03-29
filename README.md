@@ -31,8 +31,7 @@ A forest was created to create a hierarchical structure of Active Directory. Thi
 
 # Screenshots / System Configuration
 
-### Windows 2025 Server
-Roles
+### Windows Server 2025 - Domain Controller Setup
 - Active Directory Domain Services (AD DS)
 <img width="1431" height="1005" alt="domainCreation" src="https://github.com/user-attachments/assets/1cfff535-96b0-4e22-87ed-a9008f0ef71e" />
 <img width="1439" height="1005" alt="part2" src="https://github.com/user-attachments/assets/8d888b1e-6e3b-4aa0-8dd7-6479afd3ce92" />

@@ -51,6 +51,9 @@ A forest was created to create a hierarchical structure of Active Directory. Thi
 
 ### Vulnerability Scanner
 - Nessus will be used on Windows 2025 Server to scan Windows 11, client
+<img width="1919" height="1079" alt="Screenshot 2026-03-29 140441" src="https://github.com/user-attachments/assets/e0cecf8a-8817-46e8-b2d8-7a2990429089" />
+<img width="1919" height="1079" alt="Screenshot 2026-03-29 140921" src="https://github.com/user-attachments/assets/132b1121-f6cb-4099-840b-57c5bea12244" />
+
 
 ### Network Setup
 - Adapter 1: NAT

@@ -26,6 +26,9 @@ On the Windows Server VM, I configured it to be the domain controller.
 
 Using the server manager application, I installed the Active Directory Domain Services (AD DS) role. Once it was installed, I promoted the server to a Domain Controller after creating a forest and domain named org.local. This was done because this role allows for the services required to manage identities and enforce centralized control in this simulated environment. (See Screenshots below)
 
+A forest was created to create a hierarchical structure of Active Directory. This defines the boundary of the environment and allows users and admins to exist in a centralized directory. By doing this, I created a new Active Directory.
+
+
 # Screenshots / System Configuration
 
 ### Windows 2025 Server

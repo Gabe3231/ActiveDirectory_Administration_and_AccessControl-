@@ -21,7 +21,10 @@ I began this lab by downloading the ISOs of the operating systems I would be usi
 
 I began by setting up the Windows Server 2025
 
-##Domain Controller Setup
+### Domain Controller Setup
+On the Windows Server VM, I configured it to be the domain controller. 
+
+Using the server manager application, I installed the Active Directory Domain Services (AD DS) role. Once it was installed, I promoted the server to a Domain Controller after creating a forest and domain named org.local. This was done because this role allows for the services required to manage identities and enforce centralized control in this simulated environment. (See Screenshots below)
 
 # Screenshots / System Configuration
 

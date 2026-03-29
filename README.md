@@ -36,8 +36,8 @@ Roles
 
 # Group Policy
 - Created and applied Group Policy Objects (GPOs) (Instalation Policy)
-<img width="1919" height="1079" alt="AppInstall" src="https://github.com/user-attachments/assets/eabd1353-1a87-45c3-a4a9-05ed61082c04" />
 <img width="1919" height="1079" alt="MSI" src="https://github.com/user-attachments/assets/57fa578b-33e1-41a5-ba7c-56aca9b045ad" />
+<img width="1919" height="1079" alt="AppInstall" src="https://github.com/user-attachments/assets/eabd1353-1a87-45c3-a4a9-05ed61082c04" />
 <img width="1919" height="1079" alt="policyFiles" src="https://github.com/user-attachments/assets/39808add-a411-4f0f-9f22-a1bbcffd8ed7" />
 - Password policies
 - Security restrictions

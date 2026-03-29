@@ -16,16 +16,16 @@ The hypervisor that is being used is virtual box on a Windows 11 system. A virtu
 # Windows 2025 Server
 Roles
 - Active Directory Domain Services (AD DS)
-<img width="1436" height="1002" alt="domainCreation2" src="https://github.com/user-attachments/assets/a6c8e816-d128-4aee-a7db-37ebef55cb88" />
 <img width="1431" height="1005" alt="domainCreation" src="https://github.com/user-attachments/assets/1cfff535-96b0-4e22-87ed-a9008f0ef71e" />
+<img width="1436" height="1002" alt="domainCreation2" src="https://github.com/user-attachments/assets/a6c8e816-d128-4aee-a7db-37ebef55cb88" />
 - Domain Controller
 <img width="1743" height="1079" alt="Screenshot 2026-03-28 231334" src="https://github.com/user-attachments/assets/a73efa5c-a143-43df-8714-de1ca1b194b5" />
 - Vulnerability scanning host
 
 # Enterprise Windows 11 Client Machine
 - Joined to domain
-<img width="1919" height="1079" alt="DomainJoin" src="https://github.com/user-attachments/assets/b154f6d6-65aa-498d-b6de-dd4f25d868c6" />
 <img width="1919" height="1079" alt="BothVMs" src="https://github.com/user-attachments/assets/a7466145-4843-4f65-8098-31466f2f431b" />
+<img width="1919" height="1079" alt="DomainJoin" src="https://github.com/user-attachments/assets/b154f6d6-65aa-498d-b6de-dd4f25d868c6" />
 
 # Vulnerability Scanner
 - Nessus will be used on Windows 2025 Server to scan Windows 11 client

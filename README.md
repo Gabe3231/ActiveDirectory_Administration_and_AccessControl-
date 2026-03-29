@@ -35,7 +35,12 @@ A forest was created to create a hierarchical structure of Active Directory. Thi
 Roles
 - Active Directory Domain Services (AD DS)
 <img width="1431" height="1005" alt="domainCreation" src="https://github.com/user-attachments/assets/1cfff535-96b0-4e22-87ed-a9008f0ef71e" />
+<img width="1439" height="1005" alt="part2" src="https://github.com/user-attachments/assets/8d888b1e-6e3b-4aa0-8dd7-6479afd3ce92" />
 <img width="1436" height="1002" alt="domainCreation2" src="https://github.com/user-attachments/assets/a6c8e816-d128-4aee-a7db-37ebef55cb88" />
+<img width="1438" height="1005" alt="art3" src="https://github.com/user-attachments/assets/89fb28b8-06a5-406a-9bff-cf38e3d5308f" />
+<img width="1439" height="1006" alt="part4" src="https://github.com/user-attachments/assets/993038a8-df8d-4f3a-a492-665e61bc4a1e" />
+<img width="1438" height="1002" alt="part5" src="https://github.com/user-attachments/assets/30688619-3e78-4fca-b3b1-c5828bec39b7" />
+
 - Domain Controller
 <img width="1743" height="1079" alt="Screenshot 2026-03-28 231334" src="https://github.com/user-attachments/assets/a73efa5c-a143-43df-8714-de1ca1b194b5" />
 - Vulnerability scanning host

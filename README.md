@@ -1,5 +1,5 @@
 # Completed Objectives
-1. Setup a virtual Windows 2025 Server and setup Active Directory Domain Services with a domain titled org.local
+1. Setup a virtual Windows 2025 Server, promoted it to a Domain Controler, and setup Active Directory Domain Services with a domain titled org.local
 2. Provisioned a virtual Enterprise Windows 2025 client and created two domain users: admin and USER-01
 3. Joined client machine (USER-01) to the domain and authticated using domain credentials
 4. Created and applied Group Policy Objects (GPOs) to automate app software installation via file share

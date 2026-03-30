@@ -8,7 +8,7 @@
 ## Overview
 This lab will simulate a real-world enterprise environment using Active Directory domain services within a virtualized environment using Oracle's VirtualBox.
 
-The lab consists of a Windows Server domain controller and a Windows client machine, configured to replicate common IT infrastructure scenarios, including user management, authentication, Group Policy enforcement, and network file sharing.
+The lab consists of a Windows Server domain controller and a Windows Enterprise client machine, configured to replicate common IT infrastructure scenarios, including user management, authentication, Group Policy enforcement, and network file sharing.
 
 ## Lab Environment
 

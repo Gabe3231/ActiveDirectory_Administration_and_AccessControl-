@@ -27,8 +27,20 @@ On the Windows Server VM, I configured it to be the domain controller.
 
 Using the server manager application, I installed the Active Directory Domain Services (AD DS) role. Once it was installed, I promoted the server to a Domain Controller after creating a forest and domain named org.local. This was done because this role allows for the services required to manage identities and enforce centralized control in this simulated environment. (See Screenshots below)
 
-A forest was created to create a hierarchical structure of Active Directory. This defines the boundary of the environment and allows users and admins to exist in a centralized directory. By doing this, I created a new Active Directory.
+A forest was created to create the hierarchical structure of Active Directory. This defines the boundary of the environment and allows users and admins to exist in a centralized directory. This is important as it allows admins to manage identities, permissions, and devices from a single location.
 
+### User and Directory Configuration
+After configuring the domain controller I created user accounts within active directory using Active Directory Users and Computers (ADUC).
+
+I originally crerated two users:
+1. admin (administartive account)
+2. USER-01 (Standard Domain User)
+3. Gab (Third user added later for more testing)
+
+This was done to simulate an enterprise structure where IT admins have administrative access while regular users do not. This is important because authentication is done centrally rather than on each machine and allows admins to assign access control and other policies. This also allows multiple users to sign in to other devices using the same credentials as long as it's connected to the domain, which allows for scalability.
+
+### Client Setup and Domain Join
+After creating the domain, I had to then configure the Windows 11 Enterprise system to be a client on the network. I updated the system's DNS to point to the server's IPv4 address, which I made static. This had to be done so the client could communicate and join the domain. After setting up, the client was joined to the domain org.local and used domain credentials.
 
 # Screenshots / System Configuration
 
@@ -41,12 +53,8 @@ A forest was created to create a hierarchical structure of Active Directory. Thi
 <img width="1439" height="1006" alt="part4" src="https://github.com/user-attachments/assets/993038a8-df8d-4f3a-a492-665e61bc4a1e" />
 <img width="1438" height="1002" alt="part5" src="https://github.com/user-attachments/assets/30688619-3e78-4fca-b3b1-c5828bec39b7" />
 
-
 - Domain Controller
 <img width="1743" height="1079" alt="Screenshot 2026-03-28 231334" src="https://github.com/user-attachments/assets/a73efa5c-a143-43df-8714-de1ca1b194b5" />
-
-
-- Vulnerability scanning host
 
 ### Enterprise Windows 11 Client Machine
 - Joined the domain

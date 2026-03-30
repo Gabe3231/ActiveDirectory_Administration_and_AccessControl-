@@ -41,8 +41,11 @@ A forest was created to create a hierarchical structure of Active Directory. Thi
 <img width="1439" height="1006" alt="part4" src="https://github.com/user-attachments/assets/993038a8-df8d-4f3a-a492-665e61bc4a1e" />
 <img width="1438" height="1002" alt="part5" src="https://github.com/user-attachments/assets/30688619-3e78-4fca-b3b1-c5828bec39b7" />
 
+
 - Domain Controller
 <img width="1743" height="1079" alt="Screenshot 2026-03-28 231334" src="https://github.com/user-attachments/assets/a73efa5c-a143-43df-8714-de1ca1b194b5" />
+
+
 - Vulnerability scanning host
 
 ### Enterprise Windows 11 Client Machine
@@ -65,6 +68,4 @@ A forest was created to create a hierarchical structure of Active Directory. Thi
 <img width="1919" height="1079" alt="MSI" src="https://github.com/user-attachments/assets/57fa578b-33e1-41a5-ba7c-56aca9b045ad" />
 <img width="1919" height="1079" alt="AppInstall" src="https://github.com/user-attachments/assets/eabd1353-1a87-45c3-a4a9-05ed61082c04" />
 <img width="1919" height="1079" alt="policyFiles" src="https://github.com/user-attachments/assets/39808add-a411-4f0f-9f22-a1bbcffd8ed7" />
-- Password policies
-- Security restrictions
 

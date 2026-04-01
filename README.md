@@ -17,3 +17,20 @@ The lab consists of a Windows Server domain controller and a Windows Enterprise 
 The type 2 hypervisor is running on a Windows 11 system with an i5 12600KF and 32GB of DDR4 RAM. The operating systems being hosted are Windows Server 2025 and Windows 11 Enterprise. Each has been allocated 3 cores and 8GB of RAM.
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-29 104026" src="https://github.com/user-attachments/assets/526a54a3-beed-4f27-867a-c333c4922675" />
+
+## Documentation
+
+- [Implementation Walkthrough](implementations.md)
+- [Screenshots / System Configuration](Screenshots.md)
+
+## Skills Demonstrated
+
+- Active Directory Domain Services (AD DS)
+- Domain Controller configuration
+- Centralized user and device management
+- DNS and domain join configuration
+- Group Policy Object (GPO) deployment
+- Network file sharing
+- Vulnerability scanning with Nessus
+- Virtualization using Oracle VirtualBox
+

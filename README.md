@@ -20,8 +20,8 @@ The type 2 hypervisor is running on a Windows 11 system with an i5 12600KF and 3
 
 ## Documentation
 
-- [Implementation Walkthrough]([[implementation.md](https://github.com/Gabe3231/ActiveDirectory_Administration_and_AccessControl-/blob/main/README.md#:~:text=implementation.md)](https://github.com/Gabe3231/ActiveDirectory_Administration_and_AccessControl-/blob/main/Documentation/implementation.md))
-- [Screenshots / System Configuration]([Screenshots.md](https://github.com/Gabe3231/ActiveDirectory_Administration_and_AccessControl-/edit/main/README.md#:~:text=screenshots.md))
+- [Implementation Walkthrough](implementation.md](https://github.com/Gabe3231/ActiveDirectory_Administration_and_AccessControl-/blob/main/README.md#:~:text=implementation.md)](https://github.com/Gabe3231/ActiveDirectory_Administration_and_AccessControl-/blob/main/Documentation/implementation.md))
+- [Screenshots / System Configuration](Screenshots.md](https://github.com/Gabe3231/ActiveDirectory_Administration_and_AccessControl-/edit/main/README.md#:~:text=screenshots.md))
 
 ## Skills Demonstrated
 

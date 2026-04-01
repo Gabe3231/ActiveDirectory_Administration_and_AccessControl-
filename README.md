@@ -40,7 +40,14 @@ I originally crerated two users:
 This was done to simulate an enterprise structure where IT admins have administrative access while regular users do not. This is important because authentication is done centrally rather than on each machine and allows admins to assign access control and other policies. This also allows multiple users to sign in to other devices using the same credentials as long as it's connected to the domain, which allows for scalability.
 
 ### Client Setup and Domain Join
-After creating the domain, I had to then configure the Windows 11 Enterprise system to be a client on the network. I updated the system's DNS to point to the server's IPv4 address, which I made static. This had to be done so the client could communicate and join the domain. After setting up, the client was joined to the domain org.local and used domain credentials.
+After creating the domain, I had to then configure the Windows 11 Enterprise system to be a client on the network. I updated the clients system's DNS to point to the server's IPv4 address, which I made static. This had to be done so the client could communicate and join the domain. After setting up, the client was joined to the domain org.local and used domain credentials.
+
+This allows the client machine to become part of a centralized domain, autehticate users via the domian controller, and recive group policy configurations.
+
+### File Share Config
+After the client machine joined the domain I configured a network file share to allow for centralized resource accessa and ditribution. The folder was named Software on the server and I configured the network resource usinf its path: \\WINDOWSSERVER\Software
+
+The folder was used to store MSI installation file for two softwares: Google Chrome and Zoom. This was done so they could later be deployed using Group Policy.
 
 # Screenshots / System Configuration
 

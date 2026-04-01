@@ -14,8 +14,8 @@ A forest was created to create the hierarchical structure of Active Directory. T
 ## User and Directory Configuration
 After configuring the domain controller, I created user accounts within Active Directory using Active Directory Users and Computers (ADUC).
 
-I originally crerated two users:
-1. admin (administartive account)
+I created two users:
+1. admin (administrative account)
 2. USER-01 (Standard Domain User)
 3. Gab (Third user added later for testing)
 
